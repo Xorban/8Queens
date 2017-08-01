@@ -7,4 +7,4 @@ The below image illustrates one of the possible outputs.
 
 <p align="center">
   <img src="output_example.png"/>
-<\p>
+</p>
