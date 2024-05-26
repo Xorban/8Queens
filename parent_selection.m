@@ -5,6 +5,6 @@ function selected = parent_selection(population,N,K)
     for i = 1:N
         fits(i) = fitness(all_selected(i,:));
     end
-    [values idx] = sort(fits);
+    [~, idx] = sort(fits);
     selected = population(idx(1:K),:);
 end

@@ -18,7 +18,7 @@ for iter = 1:1000
     if found == 1
         disp('Result is Found ...')
         show(result)
-        result
+        result;
         break
     end
     
